@@ -14,8 +14,14 @@ Pod::Spec.new do |s|
   s.homepage         = 'https://github.com/OmarIbbu/Comcast'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'omar17farooq@gmail.com' => 'omar17farooq@gmail.com' }
-  s.source           = { :git => 'https://github.com/OmarIbbu/Comcast.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/OmarIbbu/Comcast.git', :tag => '1.0.1' }
   s.ios.deployment_target = '10.0'
   s.source_files = 'Smiota/Classes/**/*'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.dependency 'Alamofire'
+  s.dependency 'Firebase'
+  s.dependency 'Firebase/Core'
+  s.dependency 'Firebase/Database'
+  s.dependency 'FireStore'
+
+  
 end
