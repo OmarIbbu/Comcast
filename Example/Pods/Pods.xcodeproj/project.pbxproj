@@ -1,0 +1,801 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		50EE332474292DC976256D07770A91C5 /* Pods-Smiota_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B277DAD3E8F3C1934ABBF516391ADCF /* Pods-Smiota_Tests-dummy.m */; };
+		63A73A626F4F731B05313D4A988BB512 /* Pods-Smiota_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 318634B70A939215166B7DDCABC6504C /* Pods-Smiota_Example-dummy.m */; };
+		7588A5F228A4DE5700D7DCBA /* Random.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7588A5F128A4DE5700D7DCBA /* Random.swift */; };
+		A6D2DC024DB41E652D82D044ECD13406 /* Smiota-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BE93AA830505C7A5C4E61D8FAF080F53 /* Smiota-dummy.m */; };
+		AA37B40D3875B09CB17924FE0ED0B57D /* Smiota-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5EE50D94D2301301BD8442B1B42ECE66 /* Smiota-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ACB93259E89CDBD90E50CEB63E20FF3C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		E691798BAE4DCE5E2D967C883BF42CF2 /* Pods-Smiota_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 42D3F21721099B866B0D4ED7D15C3512 /* Pods-Smiota_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E7A485A8994D8F17F7926998496811C0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		EA81DADCFF92396BC3C380D2D0B0B231 /* Pods-Smiota_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 011E8EAFC9CF69931BCC77191626439E /* Pods-Smiota_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ED5B9C29E5FB9992E0AA9CD7F1CF1C25 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		037E1D7249AF0EEF288473A2F0421AB9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8D7EB2880A3413EB9384D68542D0C570;
+			remoteInfo = Smiota;
+		};
+		0E91FD65DBFFB42CBF5BE37F6F470761 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 41D21A74BC0CCD605E36B20AC40FF7AF;
+			remoteInfo = "Pods-Smiota_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		011E8EAFC9CF69931BCC77191626439E /* Pods-Smiota_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Smiota_Example-umbrella.h"; sourceTree = "<group>"; };
+		249F4E92BE13B4BCBA84F6E3C1D7D7DA /* Smiota.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = Smiota.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		2511C3E703C290AFEB741748FF4CD4F6 /* Smiota.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Smiota.release.xcconfig; sourceTree = "<group>"; };
+		2C81225648CA5728BFC86937B31F697A /* Pods-Smiota_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Smiota_Tests-Info.plist"; sourceTree = "<group>"; };
+		318634B70A939215166B7DDCABC6504C /* Pods-Smiota_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Smiota_Example-dummy.m"; sourceTree = "<group>"; };
+		400051F51E37D5BE31A67E106A7BD915 /* Pods-Smiota_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Smiota_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		407640D0DC9F521944C06B5EB2774BEC /* Pods-Smiota_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Smiota_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		42D3F21721099B866B0D4ED7D15C3512 /* Pods-Smiota_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Smiota_Tests-umbrella.h"; sourceTree = "<group>"; };
+		4748822BB8343CA116EBEEA90B0096B9 /* Pods-Smiota_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Smiota_Example-Info.plist"; sourceTree = "<group>"; };
+		4AC99635E9DCAB34CA4FE1F2324D4AE7 /* Pods-Smiota_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Smiota_Example.modulemap"; sourceTree = "<group>"; };
+		4DCE18A036F9AEABBD9AF373D8505827 /* Smiota.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Smiota.debug.xcconfig; sourceTree = "<group>"; };
+		5EE50D94D2301301BD8442B1B42ECE66 /* Smiota-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Smiota-umbrella.h"; sourceTree = "<group>"; };
+		6395D72FC63124922D3989EF9DEB0883 /* Pods-Smiota_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Smiota_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7588A5F128A4DE5700D7DCBA /* Random.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Random.swift; sourceTree = "<group>"; };
+		7B277DAD3E8F3C1934ABBF516391ADCF /* Pods-Smiota_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Smiota_Tests-dummy.m"; sourceTree = "<group>"; };
+		7D903CE6D49746797AE81A5F7B633A47 /* Pods-Smiota_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Smiota_Example.release.xcconfig"; sourceTree = "<group>"; };
+		8F2EC2731C0B6CBA72552117070634BD /* Pods-Smiota_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Smiota_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		936798FD0AEBB8A0A578AAFDF4C04394 /* Smiota.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Smiota.modulemap; sourceTree = "<group>"; };
+		9D5D0A8F45416283C189AB1ACDBBD77F /* Pods-Smiota_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Smiota_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9DDE1DBE9B378B5FAD449B33A8D69256 /* Pods-Smiota_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Smiota_Tests.modulemap"; sourceTree = "<group>"; };
+		A6CF02B5367EAC257ED904822DA0D681 /* Pods-Smiota_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Smiota_Example-frameworks.sh"; sourceTree = "<group>"; };
+		BE93AA830505C7A5C4E61D8FAF080F53 /* Smiota-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Smiota-dummy.m"; sourceTree = "<group>"; };
+		C0B0D78D272B22C66CE391C7495ADE5B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		C4817CE28BADDA59D4829D5E43EBD8A0 /* Pods-Smiota_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Smiota_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C91D46E129A620A94B0BD8B833BD2C4B /* Pods-Smiota_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Smiota_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		C9919031D013A5472BC5FC07E70E9EB6 /* Pods-Smiota_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-Smiota_Tests"; path = Pods_Smiota_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8C492BD4D0128D33651F94858EB3072 /* Smiota */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Smiota; path = Smiota.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8D9222E31173A13FC88D5CEB0AF3DF9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		DC47FED8F5AA4C64B0503B086999385C /* Pods_Smiota_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Smiota_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED78F745AB12C421D5966CCB3A59C252 /* Smiota-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Smiota-Info.plist"; sourceTree = "<group>"; };
+		F3CC85D9575593CF1D6FD88C369761CA /* Smiota-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Smiota-prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		02DF442401CE356A43B956AF6AB9DA41 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACB93259E89CDBD90E50CEB63E20FF3C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BCE796461D4F2EB0E0C3C2C292E6D9E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7A485A8994D8F17F7926998496811C0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8667AEA5BC96D772D52AA75D89DAEE9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED5B9C29E5FB9992E0AA9CD7F1CF1C25 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		33CA109BD9BCFA886B6E19D53E00B0ED /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				81D5BFD1EE5D45A33A9AAE953A15C2AD /* Pods-Smiota_Example */,
+				D1D9858B964F3F42FD1FF7E09F15A566 /* Pods-Smiota_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		4B56909F4C78000C83662A5BEDB73BB1 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7D46FC92DA6249DA9979CCB3BBDBCD51 /* Smiota */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		5446964A060760A6317BD06616BB905E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				936798FD0AEBB8A0A578AAFDF4C04394 /* Smiota.modulemap */,
+				BE93AA830505C7A5C4E61D8FAF080F53 /* Smiota-dummy.m */,
+				ED78F745AB12C421D5966CCB3A59C252 /* Smiota-Info.plist */,
+				F3CC85D9575593CF1D6FD88C369761CA /* Smiota-prefix.pch */,
+				5EE50D94D2301301BD8442B1B42ECE66 /* Smiota-umbrella.h */,
+				4DCE18A036F9AEABBD9AF373D8505827 /* Smiota.debug.xcconfig */,
+				2511C3E703C290AFEB741748FF4CD4F6 /* Smiota.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/Smiota";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7588A5EF28A4DE3D00D7DCBA /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				7588A5F028A4DE4A00D7DCBA /* Core */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		7588A5F028A4DE4A00D7DCBA /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				7588A5F128A4DE5700D7DCBA /* Random.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		7D46FC92DA6249DA9979CCB3BBDBCD51 /* Smiota */ = {
+			isa = PBXGroup;
+			children = (
+				7588A5EF28A4DE3D00D7DCBA /* Classes */,
+				FD963206EACC5AE585CAC53529A90761 /* Pod */,
+				5446964A060760A6317BD06616BB905E /* Support Files */,
+			);
+			name = Smiota;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		81D5BFD1EE5D45A33A9AAE953A15C2AD /* Pods-Smiota_Example */ = {
+			isa = PBXGroup;
+			children = (
+				4AC99635E9DCAB34CA4FE1F2324D4AE7 /* Pods-Smiota_Example.modulemap */,
+				9D5D0A8F45416283C189AB1ACDBBD77F /* Pods-Smiota_Example-acknowledgements.markdown */,
+				6395D72FC63124922D3989EF9DEB0883 /* Pods-Smiota_Example-acknowledgements.plist */,
+				318634B70A939215166B7DDCABC6504C /* Pods-Smiota_Example-dummy.m */,
+				A6CF02B5367EAC257ED904822DA0D681 /* Pods-Smiota_Example-frameworks.sh */,
+				4748822BB8343CA116EBEEA90B0096B9 /* Pods-Smiota_Example-Info.plist */,
+				011E8EAFC9CF69931BCC77191626439E /* Pods-Smiota_Example-umbrella.h */,
+				407640D0DC9F521944C06B5EB2774BEC /* Pods-Smiota_Example.debug.xcconfig */,
+				7D903CE6D49746797AE81A5F7B633A47 /* Pods-Smiota_Example.release.xcconfig */,
+			);
+			name = "Pods-Smiota_Example";
+			path = "Target Support Files/Pods-Smiota_Example";
+			sourceTree = "<group>";
+		};
+		AFE7BF02239B9431DAC957B06F000116 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DC47FED8F5AA4C64B0503B086999385C /* Pods_Smiota_Example.framework */,
+				C9919031D013A5472BC5FC07E70E9EB6 /* Pods-Smiota_Tests */,
+				D8C492BD4D0128D33651F94858EB3072 /* Smiota */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				4B56909F4C78000C83662A5BEDB73BB1 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				AFE7BF02239B9431DAC957B06F000116 /* Products */,
+				33CA109BD9BCFA886B6E19D53E00B0ED /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D1D9858B964F3F42FD1FF7E09F15A566 /* Pods-Smiota_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				9DDE1DBE9B378B5FAD449B33A8D69256 /* Pods-Smiota_Tests.modulemap */,
+				C4817CE28BADDA59D4829D5E43EBD8A0 /* Pods-Smiota_Tests-acknowledgements.markdown */,
+				8F2EC2731C0B6CBA72552117070634BD /* Pods-Smiota_Tests-acknowledgements.plist */,
+				7B277DAD3E8F3C1934ABBF516391ADCF /* Pods-Smiota_Tests-dummy.m */,
+				2C81225648CA5728BFC86937B31F697A /* Pods-Smiota_Tests-Info.plist */,
+				42D3F21721099B866B0D4ED7D15C3512 /* Pods-Smiota_Tests-umbrella.h */,
+				400051F51E37D5BE31A67E106A7BD915 /* Pods-Smiota_Tests.debug.xcconfig */,
+				C91D46E129A620A94B0BD8B833BD2C4B /* Pods-Smiota_Tests.release.xcconfig */,
+			);
+			name = "Pods-Smiota_Tests";
+			path = "Target Support Files/Pods-Smiota_Tests";
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FD963206EACC5AE585CAC53529A90761 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				C0B0D78D272B22C66CE391C7495ADE5B /* LICENSE */,
+				D8D9222E31173A13FC88D5CEB0AF3DF9 /* README.md */,
+				249F4E92BE13B4BCBA84F6E3C1D7D7DA /* Smiota.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1DF514D305BA9CECAA314C2CC48AACB1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA81DADCFF92396BC3C380D2D0B0B231 /* Pods-Smiota_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E6C49B79EC9774226A661A4C603BBC8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA37B40D3875B09CB17924FE0ED0B57D /* Smiota-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4381A275A4FC80CBBD405F8994E2DE0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E691798BAE4DCE5E2D967C883BF42CF2 /* Pods-Smiota_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		140E78BA8B4E4297B9B7013FD7E44417 /* Pods-Smiota_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 68C736737B0C8CD0AA7EA1DCBB17D0A8 /* Build configuration list for PBXNativeTarget "Pods-Smiota_Tests" */;
+			buildPhases = (
+				D4381A275A4FC80CBBD405F8994E2DE0 /* Headers */,
+				2A61DE1C4CABFFB843F4CAE7F6D9C05E /* Sources */,
+				A8667AEA5BC96D772D52AA75D89DAEE9 /* Frameworks */,
+				0159518C81100D8917D6D54912642315 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9B6E2A5BB906056622A81CB03A27C339 /* PBXTargetDependency */,
+			);
+			name = "Pods-Smiota_Tests";
+			productName = Pods_Smiota_Tests;
+			productReference = C9919031D013A5472BC5FC07E70E9EB6 /* Pods-Smiota_Tests */;
+			productType = "com.apple.product-type.framework";
+		};
+		41D21A74BC0CCD605E36B20AC40FF7AF /* Pods-Smiota_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84DF5304B20DC9639F94116E46E4BC1D /* Build configuration list for PBXNativeTarget "Pods-Smiota_Example" */;
+			buildPhases = (
+				1DF514D305BA9CECAA314C2CC48AACB1 /* Headers */,
+				DF96C7BA77E66E5A4950E931CABC8672 /* Sources */,
+				4BCE796461D4F2EB0E0C3C2C292E6D9E /* Frameworks */,
+				62BFAE9FEB5D166C9D84B87DAE4F5A3B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				03F2EE296FA1BF420649D30508E6FB17 /* PBXTargetDependency */,
+			);
+			name = "Pods-Smiota_Example";
+			productName = Pods_Smiota_Example;
+			productReference = DC47FED8F5AA4C64B0503B086999385C /* Pods_Smiota_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8D7EB2880A3413EB9384D68542D0C570 /* Smiota */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CC629E3AE658B1856528179DD3B2535 /* Build configuration list for PBXNativeTarget "Smiota" */;
+			buildPhases = (
+				4E6C49B79EC9774226A661A4C603BBC8 /* Headers */,
+				441A9C353B72793CC45F0015D9CA27C7 /* Sources */,
+				02DF442401CE356A43B956AF6AB9DA41 /* Frameworks */,
+				03CDBC3DF025E5302BFAB1EEEC8E031F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Smiota;
+			productName = Smiota;
+			productReference = D8C492BD4D0128D33651F94858EB3072 /* Smiota */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					41D21A74BC0CCD605E36B20AC40FF7AF = {
+						LastSwiftMigration = 1340;
+					};
+				};
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = AFE7BF02239B9431DAC957B06F000116 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				41D21A74BC0CCD605E36B20AC40FF7AF /* Pods-Smiota_Example */,
+				140E78BA8B4E4297B9B7013FD7E44417 /* Pods-Smiota_Tests */,
+				8D7EB2880A3413EB9384D68542D0C570 /* Smiota */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0159518C81100D8917D6D54912642315 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03CDBC3DF025E5302BFAB1EEEC8E031F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62BFAE9FEB5D166C9D84B87DAE4F5A3B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2A61DE1C4CABFFB843F4CAE7F6D9C05E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50EE332474292DC976256D07770A91C5 /* Pods-Smiota_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		441A9C353B72793CC45F0015D9CA27C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6D2DC024DB41E652D82D044ECD13406 /* Smiota-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF96C7BA77E66E5A4950E931CABC8672 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7588A5F228A4DE5700D7DCBA /* Random.swift in Sources */,
+				63A73A626F4F731B05313D4A988BB512 /* Pods-Smiota_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		03F2EE296FA1BF420649D30508E6FB17 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Smiota;
+			target = 8D7EB2880A3413EB9384D68542D0C570 /* Smiota */;
+			targetProxy = 037E1D7249AF0EEF288473A2F0421AB9 /* PBXContainerItemProxy */;
+		};
+		9B6E2A5BB906056622A81CB03A27C339 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Smiota_Example";
+			target = 41D21A74BC0CCD605E36B20AC40FF7AF /* Pods-Smiota_Example */;
+			targetProxy = 0E91FD65DBFFB42CBF5BE37F6F470761 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1E3240F44E962737AF6BCB03AD3FCE0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C91D46E129A620A94B0BD8B833BD2C4B /* Pods-Smiota_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Smiota_Tests/Pods-Smiota_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Smiota_Tests/Pods-Smiota_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4F6893B67ECF7860C0D32959CD30CBDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 407640D0DC9F521944C06B5EB2774BEC /* Pods-Smiota_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Smiota_Example/Pods-Smiota_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Smiota_Example/Pods-Smiota_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		72A94283A80F6FE5C269FDB256F63FA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 400051F51E37D5BE31A67E106A7BD915 /* Pods-Smiota_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Smiota_Tests/Pods-Smiota_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Smiota_Tests/Pods-Smiota_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7C38C3A46C978F9CE2903119A8A410CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D903CE6D49746797AE81A5F7B633A47 /* Pods-Smiota_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Smiota_Example/Pods-Smiota_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Smiota_Example/Pods-Smiota_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7EE7A78859F657F6BEFC651185B43192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		8B4A1A2394C47223EA3642EE6D66FCCA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2511C3E703C290AFEB741748FF4CD4F6 /* Smiota.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Smiota/Smiota-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Smiota/Smiota-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Smiota/Smiota.modulemap";
+				PRODUCT_MODULE_NAME = Smiota;
+				PRODUCT_NAME = Smiota;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D299434AB35E7FD6F7921C8EF24742FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		FC28222D365AAF63EBA1FB48E80CC7A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4DCE18A036F9AEABBD9AF373D8505827 /* Smiota.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Smiota/Smiota-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Smiota/Smiota-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Smiota/Smiota.modulemap";
+				PRODUCT_MODULE_NAME = Smiota;
+				PRODUCT_NAME = Smiota;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D299434AB35E7FD6F7921C8EF24742FF /* Debug */,
+				7EE7A78859F657F6BEFC651185B43192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4CC629E3AE658B1856528179DD3B2535 /* Build configuration list for PBXNativeTarget "Smiota" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC28222D365AAF63EBA1FB48E80CC7A9 /* Debug */,
+				8B4A1A2394C47223EA3642EE6D66FCCA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		68C736737B0C8CD0AA7EA1DCBB17D0A8 /* Build configuration list for PBXNativeTarget "Pods-Smiota_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72A94283A80F6FE5C269FDB256F63FA1 /* Debug */,
+				1E3240F44E962737AF6BCB03AD3FCE0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84DF5304B20DC9639F94116E46E4BC1D /* Build configuration list for PBXNativeTarget "Pods-Smiota_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F6893B67ECF7860C0D32959CD30CBDA /* Debug */,
+				7C38C3A46C978F9CE2903119A8A410CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

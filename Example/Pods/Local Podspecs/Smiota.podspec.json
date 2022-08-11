@@ -1,0 +1,22 @@
+{
+  "name": "Smiota",
+  "version": "0.1.0",
+  "summary": "A short description of Smiota.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/omar17farooq@gmail.com/Smiota",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "omar17farooq@gmail.com": "omar17farooq@gmail.coom"
+  },
+  "source": {
+    "git": "https://github.com/omar17farooq@gmail.com/Smiota.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "Smiota/Classes/**/*"
+}

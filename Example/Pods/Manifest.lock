@@ -1,0 +1,16 @@
+PODS:
+  - Smiota (0.1.0)
+
+DEPENDENCIES:
+  - Smiota (from `../`)
+
+EXTERNAL SOURCES:
+  Smiota:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Smiota: 2caee69ebd27b044d6e8d3670bf52d0d8c06a42c
+
+PODFILE CHECKSUM: b8e949b6782c6683a430d1ce1583154b4ae7019c
+
+COCOAPODS: 1.11.3

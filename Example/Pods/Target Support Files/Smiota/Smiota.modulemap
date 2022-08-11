@@ -1,0 +1,6 @@
+framework module Smiota {
+  umbrella header "Smiota-umbrella.h"
+
+  export *
+  module * { export * }
+}
